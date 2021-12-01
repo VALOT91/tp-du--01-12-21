@@ -1,0 +1,247 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Open+Sans:wght@300&display=swap");
+
+/* css init */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Comfortaa", cursive;
+}
+
+/* fin css init */
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+}
+
+header p,
+a,
+input {
+  margin-left: 2rem;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: xx-large;
+  padding: 2px;
+}
+
+h1 .titreDroit {
+  color: red;
+  margin-left: 0.5rem;
+}
+
+input {
+  width: 40%;
+  margin-left: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+section {
+  background-color: rgb(181, 217, 231);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+
+  height: 300px;
+}
+section img {
+  width: 55%;
+  margin-left: 10rem;
+}
+
+.blocGauche {
+  margin-top: 3rem;
+}
+.blocDroit {
+  margin-top: 3rem;
+  width: 50%;
+  text-align: center;
+  color: white;
+  margin-right: 10rem;
+}
+
+.blocDroit p {
+  margin: 1rem;
+  color: white;
+  font-size: small;
+}
+.nbr {
+  color: red;
+  margin-left: 0.5rem;
+}
+.blocDroit button {
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 6rem;
+  border: none;
+  background-color: orange;
+  color: white;
+}
+.blocDroit button:hover {
+  background-color: black;
+}
+a:hover {
+  background-color: orange;
+}
+
+form input {
+  width: 500px;
+  border: 1px solid lightgray;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.blockForm {
+  border: 1px solid lightgrey;
+  margin-top: 3rem;
+  padding: 2rem;
+  border-radius: 9px;
+  width: 90%;
+}
+
+.etape {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.validation button {
+  background-color: rgb(14, 172, 235);
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  color: white;
+}
+.validation button:hover {
+  background-color: black;
+  color: white;
+}
+footer {
+  text-align: center;
+
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+footer img {
+  border-radius: 50%;
+}
+footer h1 {
+  text-align: center;
+}
+.finalBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 2rem;
+  width: 50%;
+}
+
+.blockBtn {
+  display: flex;
+  flex-direction: row;
+
+  width: 10rem;
+  height: 30px;
+  margin-top: 1rem;
+}
+.finalG {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 25px;
+}
+.finalD img {
+  width: 100%;
+}
+
+.buttonYes,
+.buttonno {
+  width: 5rem;
+  height: 2rem;
+  margin: 0.2rem;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.buttonYes {
+  background-color: lime;
+}
+.buttonno {
+  background-color: red;
+}
+.inscription {
+  display: none;
+  text-align: center;
+  background-color: lightsteelblue;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.triangle {
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  transform: rotate(-2deg);
+  position: relative;
+  top: -16px;
+  left: 1px;
+}
+
+.blockBtn button:hover {
+  background-color: black;
+  color: white;
+}

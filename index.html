@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>
+          <span class="titreGauche">Sport</span
+          ><span class="titreDroit">21</span>
+        </h1>
+        <a href="#">Mon compte</a>
+        <a href="#">Se déconnecter</a>
+
+        <input placeholder="Rechercher un sport, un article, ou section" />
+        <span><i class="fa-thin fa-magnifying-glass"></i></span>
+      </header>
+      <section>
+        <div class="blocGauche">
+          <img id="pub" src="assets/sport01.jpg" />
+        </div>
+        <div class="blocDroit">
+          <h1>Bienvenue chez Sport<span class="nbr">21</span></h1>
+          <p>Envie de bien-être ou de remise à niveau ?</p>
+          <p>Laissez-vous guider, on s'occupe de tout</p>
+          <button onclick="" type="button">C'est parti</button>
+        </div>
+      </section>
+      <div class="triangle"></div>
+      <div class="etape"><h1>Première étape</h1></div>
+
+      <form class="formulaire">
+        <div class="blockForm">
+          <div class="row">
+            <div>
+              <label for="idPrenom">Mon prénom</label>
+            </div>
+
+            <div>
+              <input type="text" required class="f1" id="idPrenom" />
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="idNom">Mon nom</label>
+            </div>
+
+            <div>
+              <input type="text" required class="f1" id="idNom" />
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="idMail">Mon mail</label>
+            </div>
+
+            <div>
+              <input type="email" class="f1" id="idMail" />
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="idAvatar">Mon avatar</label>
+            </div>
+
+            <div>
+              <input type="text" required class="f1" id="idAvatar" />
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="idAge">Mon age</label>
+            </div>
+
+            <div>
+              <input type="text" required class="f1" id="idAge" />
+            </div>
+          </div>
+          <div class="validation">
+            <button class="envoie" type="submit">Valider</button>
+          </div>
+        </div>
+      </form>
+
+      <div class="inscription">
+        <h1>Votre inscription a bien été enregistrée</h1>
+      </div>
+      <footer class="final">
+        <h1>Opération réussie</h1>
+        <div class="finalBlock">
+          <div class="finalG">
+            <p>Votre nom</p>
+            <p>Votre email</p>
+            <p>Votre age</p>
+            <p><strong>Informations correctes ?</strong></p>
+            <div class="blockBtn">
+              <span><button class="buttonYes">Oui</button></span
+              ><button class="buttonno">non</button><span></span>
+            </div>
+          </div>
+          <div class="finalD">
+            <img src="" />
+            <!-- assets/avatar.png -->
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+  <script src="./script.js"></script>
+</html>
